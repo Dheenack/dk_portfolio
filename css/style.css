@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    margin-bottom: 20px;
+    height: 10vh;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+#about,#projects{
+    height: 100vh;
+    background:linear-gradient(to right, #000000, #01052b);
+    color: white;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span,a{
+    color: #00ddffcd;
+    font-weight: bold;
+}
+
+#about h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+h5{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.card{
+    background: #1a1a1a;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.social-icons{
+    display: flex;
+    margin-top: 20px;
+}
+i{
+    font-size: 7rem;
+    margin: 0 10px;
+    color: #00ddffcd;
+    
+}
+#contact{
+    height: 100vh;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    font-size: 2rem;
+}
+#contact h1{
+    font-size: 4rem;
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
