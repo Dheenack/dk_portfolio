@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 nav{
     margin-bottom: 20px;
     height: 10vh;
@@ -25,6 +28,14 @@ nav{
 .hero p{
     font-size: 1.5rem;
     margin-bottom: 30px;
+}
+.profile-pic {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 #about,#projects{
@@ -83,4 +94,97 @@ i{
     margin-top: 1em;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+  
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+   .hero img {
+    width: 100%;
+    max-width: 200px; /* Controls the max size */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+    .banner{
+        position: relative;
+        top:50px;
+
+    }
+    .profile-pic {
+    max-width: 180px;
+  }
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+   
+    #about, #projects {
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    #about ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    #about li {
+        margin-bottom: 15px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+   
+    .row {
+        flex-direction: column;
+    }
+
+    #contact {
+        height: auto;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #contact h1 {
+        font-size: 28px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons a {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    i {
+        font-size: 28px;
+    }
+
+    
+    .container, .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
