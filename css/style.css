@@ -12,6 +12,9 @@ nav{
 .navbar-brand{
     margin-left: 20px;
 }
+a{
+    text-decoration: none;
+}
 .hero{
     height: 100vh;
     display: flex;
