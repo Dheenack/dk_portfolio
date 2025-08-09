@@ -14,6 +14,7 @@ nav{
 }
 a{
     text-decoration: none;
+    padding-left: 15px;
 }
 .hero{
     height: 100vh;
@@ -185,7 +186,6 @@ i{
         font-size: 28px;
     }
 
-    
     .container, .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
